@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Winehoes. Find a fine wine as fine as you are.</title>
+
+	<!-- Links -->
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/styles-media.css">
+	<link rel="stylesheet" type="text/css" href="css/styles-media-mobile.css">
+	<link rel="stylesheet" type="text/css" href="css/styles-media-tablet.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css"> <!-- This one is the webfont -->
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> <!-- Another font -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Font Awesome -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:700i" rel="stylesheet">
+	<link rel="icon" type="image/png" href="img/favicon.jpg">
+
+	<!-- The Good Shit -->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+	<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+
+	<!-- Meta Tags -->
+
+	<meta charset="utf-8">
+  	<meta name="description" content="Buy Wine Online Cape Town">
+  	<meta name="keywords" content="wine, buy wine online, wine quiz, wine cape town">
+  	<meta name="author" content="Christie Eveleigh Marx">
+
+  	<!-- Responsive -->
+
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+	<!-- Video Background  -->
+
+	<div class="logo-over-vid"><img src="img/logo.png" class="logo animated fadeIn"></div>
+
+	<video autoplay muted loop id="myVideo">
+  	<source src="vid/Wine-Background.mp4" type="video/mp4">
+	</video>
+
+	<div class="content animated fadeIn">
+  	<p class="lato-light-italic video-text">"Wine has been with <br> civilised man since the beginning"</p>
+  	<p class="video-text-who">- Robert Mondavi</p>
+	</div>
+
+	<!-- How To Icon Section -->
+
+	<div class="how-to">
+		<h1 class="center">How it works</h1>
+		<div class="hidden-img">
+		<img src="img/full-icon-section.png" class="how-to-img"> <!-- Desktop & Tablet Image-->
+		<img src="img/full-icon-section-mobile.png" class="how-to-img-mobile"> <!-- Mobile Image-->
+		</div>
+	</div>
+
+	<!-- Quiz -->
+
+	<div class="quiz">
+
+		<article class="quiz-explination">
+			<h1 class="center">Can't decide?</h1>
+			<p class="lato-medium quiz-p">You ever pop to the bottle store to find something to drink? You’re browsing the shelves, reading the back of the bottles - but you couldn’t decide on a sweet red, or dry white if your life depended on it. Or maye you're a wine connesouir, tired of sipping on the same tired glasses and would love to try something new and exciting. Well, Winehoes is here to answer your prayers. Take our quiz below and get suggestions for a fine wine as fine as you are. If you love the idea, you can even order the wine online easily and have it delivered right to your door.</p>
+			<p class="lato-bold quiz-p">Want to find a new exciting wine to try? Just pick an option below and Winehoes will find one for you!</p>
+		</article>
+
+		<!-- Quiz Script -->
+
+		<div id="quiz">
+			<script type="text/javascript">
+				var questions = [ 
+					{ 
+						left:"img/quiz-1.png",	// Image 1 and Image 2 				
+						right:"img/quiz-2.png"
+					},
+					{ 
+						left:"img/quiz-3.png",	// Image 1 and Image 2 change to Image 3 and Image 4		
+						right:"img/quiz-4.png"
+					},
+					{ 
+						left:"img/quiz-5.png",	// Image 3 and Image 4 change to Image 5 and Image 6				
+						right:"img/quiz-6.png"
+					},
+					{ 
+						left:"img/quiz-7.png",	// Image 5 and Image 6 change to Image 7 and Image 8				
+						right:"img/quiz-8.png"
+					},
+					{ 
+						left:"img/quiz-9.png",	// Image 7 and Image 8 change to Image 9 and Image 10				
+						right:"img/quiz-10.png"
+					},
+					{ 
+						left:"img/quiz-11.png",	// Image 9 and Image 10 change to Image 11 and Image 12				
+						right:"img/quiz-12.png"
+					},
+		
+				];
+
+				var questionNumber = 0; // This starts the questions at 0
+			</script>
+		</div>
+
+
+		<div class="row quiz-row">
+
+		<article class="quiz-button-1 column 1" id="first-q" onclick="chooseOption('a')">
+			<img src="img/quiz-1.png" class="quiz-img 1">
+		</article>
+
+		<article class="quiz-button-2 column right 2" id="second-q" onclick="chooseOption('b')">
+			<img src="img/quiz-2.png" class="quiz-img 2">
+		</article>
+
+		</div>
+
+	</div>
+
+	<!-- Bestsellers -->
+
+	<div class="bestsellers">
+
+		<h1 class="center">Bestsellers</h1>
+
+		<div class="column-6-left">
+			<a href="bestseller-1.html"><img src="img/Nederburg1.png" class="bottle-boi"></a>
+			<p class="lato-light">Nederburg</p>
+			<p class="lato-light">Cabernet Sauvignon</p>
+			<p class="lato-light">2014</p>
+		</div>
+
+		<div class="column-6-middle">
+			<a href="fruity-wine.html"><img src="img/Allesverloren.png" class="bottle-boi"></a>
+			<p class="lato-light">Allesverloren</p>
+			<p class="lato-light">Tinta Rose</p>
+			<p class="lato-light">2017</p>
+		</div>
+
+		<div class="column-6-middle">
+			<a href="bestseller-3.html"><img src="img/Durbanville.png" class="bottle-boi"></a>
+			<p class="lato-light">Durbanville Hills</p>
+			<p class="lato-light">Rhinofields Merlot</p>
+			<p class="lato-light">2013</p>
+		</div>
+
+		<div class="column-6-middle">
+			<a href="bestseller-4.html"><img src="img/Nederburg.png" class="bottle-boi"></a>
+			<p class="lato-light">Alto</p>
+			<p class="lato-light">Cabernet Sauvignon</p>
+			<p class="lato-light">2010</p>
+		</div>
+
+		<div class="column-6-middle">
+			<a href="bestseller-5.html"><img src="img/Pongracz.png" class="bottle-boi"></a>
+			<p class="lato-light">Pongracz</p>
+			<p class="lato-light">Desiderius</p> 
+			<p class="lato-light">2009</p>
+		</div>
+
+		<div class="column-6-right">
+			<a href="bestseller-6.html"><img src="img/Plaisir.png" class="bottle-boi"></a>
+			<p class="lato-light">Plaisir de Merle</p> 
+			<p class="lato-light">Chardonnay</p> 
+			<p class="lato-light">2017</p>
+		</div>
+
+	</div>
+
+	<!-- Footer -->
+	
+	<footer>
+		<div class="blue-line"></div>
+		<h1>Want more?</h1>
+		<p class="lato-light-italic">This is only the beginning.</p>
+		<p class="lato-light-italic">More socialising, more gossip and more wine comng soon</p>
+		<p class="ato-medium bottom">If you have any questions or queries, please feel free to email us or contact us on social media.</p>
+
+
+		<div class="social-media-footer">
+		<a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+  		<a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+  		<a href="#" class="google"><i class="fa fa-google"></i></a> 
+  		<a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  		</div>
+	</footer>
+
+	<!-- Scripts -->
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+	<script src="js/main.js"></script> 
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

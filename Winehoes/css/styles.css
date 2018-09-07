@@ -1,0 +1,562 @@
+/* -- DESKTOP HOME -- */
+
+/* Fonts  */
+
+@font-face {
+    font-family: 'bizarreriebold';
+    src: url('bizarrerie-webfont.woff2') format('woff2'),
+         url('bizarrerie-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Resets */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+/* General Styles */
+
+h1 {
+	font-family: 'bizarreriebold';
+	color: #002140;
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	color: #002140;
+}
+
+.lato-bold {
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	font-weight: 700;
+}
+
+.lato-medium {
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+}
+
+.lato-light {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300; 
+}
+
+.lato-light-italic {
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	font-weight: 300; 
+}
+
+/* Header Styles */
+
+header {
+	background-color: #FCEDE6;
+	width: 100%;
+}
+
+.logo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+.header-bottle {
+	width: 8%;
+	margin-left: 300px;
+}
+
+.header-quote {
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	font-weight: 300; /* This is the light font weight */
+	font-size: 65px;
+	float: right;
+	padding-right: 100px;
+	padding-top: 100px;
+	transition: 0.3s ease-in;
+}
+
+.header-quote-who {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	float: right;
+	padding-top: 300px;
+	transition: 0.3s ease-in;
+}
+
+
+#myVideo { /* Fullscreen Video Background*/
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    margin-top: -150px;
+}
+
+.logo-over-vid {
+	background-color: transparent;
+	padding-top: 40px;
+}
+
+.content {
+    color: #002140;
+    padding: 20px;
+    position: absolute;
+    top: 300px; 
+}
+
+
+.video-text {
+	font-size: 70px;
+	font-weight: 300px;
+	padding: 80px;
+	margin: 40px;
+	padding-top: 0px;
+}
+
+.video-text-who {
+	font-size: 20px;
+	margin-top: -100px;
+	margin-left: 150px;
+
+}
+
+/* How To Icon Styles */
+
+.how-to {
+	background-color: #F5E6DF;
+	width: 100%;
+	margin-top: -32px;
+}
+
+.how-to img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.how-to-img-mobile {
+	display: none !important;
+}
+
+.center {
+	text-align: center;
+	padding-top: 20px;
+}
+
+/* Quiz Styles */
+
+.quiz {
+	margin: 0px;
+	margin-top: -20px;
+	padding: 0px;
+	width: 100%;
+}
+
+.quiz-img {
+	width: 60%;
+}
+
+.quiz-explination {
+	background-color: #303747;
+	color: #FCEDE6;
+	margin-top: 10px;
+	padding-bottom: 20px;
+}
+
+.quiz-explination h1 {
+	color: #FCEDE6;
+}
+
+.quiz-button-1 {
+	background-color: #191F2F;
+}
+
+.quiz-button-2 {
+	background-color: #0E1319;
+}
+
+.quiz-p {
+	width: 1000px;
+	color: #FCEDE6;
+	text-align: left;
+	padding: 1px;
+	padding-bottom: 20px;
+	text-align: left;
+	margin-left: auto;
+    margin-right: auto;
+    width: 60em;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: -18px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.quiz-button-1 {
+	
+}
+
+.quiz-button-2 {
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.hide {
+	display: none;
+}
+
+/* Bestsellers */
+
+.contact-form-bestseller {
+	padding-top: 500px;
+	padding-bottom: 30px;
+	background-color: #F5E6DF;
+	display: block;
+	text-align: center;
+}
+
+.contact-form { /* Special Bestsellers Contact Form */
+	margin-top: 25px;
+}
+
+.index-form-h1-bestsellers { /* Bestseller Form H1 */
+}
+
+.form-style-bestsellers { /* Special Bestsellers Contact Form */
+	display: block;
+	width: 100%;
+	margin-top: -502px;
+}
+
+.form-style-bestsellers ul {
+	list-style: none;
+}
+
+.form-button-bestseller { /* Special Bestsellers Submit Button*/
+	font-family: 'Lato', sans-serif;
+	color: #002140;
+	background-color: transparent;
+	border: 1px solid #002140;
+    padding: 10px 29px;
+    margin-top: -5px;
+    float: right;
+    margin-right: 530px;
+    font-size: 16px;
+  	display: block;
+}
+
+.form-button-bestseller:hover {
+	background-color: #303747;
+	color: #F5E6DF;
+	transition: 0.9s ease;
+}
+
+.bestseller-info-paragraph {
+	margin-top: 40px;
+	margin-right: 180px;
+	margin-bottom: 20px;
+	width: 900px;
+	float: right;
+}
+
+.bestsellers {
+	width: 100%;
+	height: 700px;
+	margin-top: -20px;
+	background-color: #FCEDE6;
+}
+
+.bestsellers p {
+	text-align: center;
+}
+
+.bestsellers p:hover {
+	color: #E8D7D0;
+	transition: 0.5s ease;
+}
+
+.process-p-bestsellers {
+	margin-top: 70px;
+	padding-top: 40px;
+	margin-top: -10px;
+}
+
+.bottle-boi {
+	padding-top: 15px;
+	transition: 0.7s ease-in;
+}
+
+.column-6-left {
+  width: 300px;
+  padding: 20px;
+  float: left;
+  margin-right: 10px;
+}
+
+.column-6-middle {
+  width: 300px;
+  padding: 20px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.column-6-right {
+  width: 300px;
+  padding: 20px;
+  float: right;
+  margin-left: 10px;
+}
+
+.wine-contact { /* Special Contact Form for Fruity Wine Page. Moves form down */
+	padding-top: 80px;
+}
+
+
+/* Footer */
+
+.blue-line {
+	width: 100%;
+	height: 30px;
+	background-color: #1B2131;
+}
+
+footer {
+	background-color: #F5E6DF;
+	width: 100%;
+	height: 190px;
+}
+
+footer h1 {
+	text-align: center;
+}
+
+footer p {
+	text-align: center;
+	padding: 0px;
+	padding-bottom: 10px;
+	margin: 0px;
+	line-height: 10px;
+}
+
+.bottom {
+	padding-bottom: 20px;
+}
+
+/* Social Media Bar */
+
+.social-media-footer a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.social-media-footer a:hover {
+  background-color: #191F2F;
+}
+
+.facebook {
+  background: #FCEDE6;
+  color: white;
+}
+
+.twitter {
+  background: #F0E1D9;
+  color: white;
+}
+
+.google {
+  background: #E1D1CA;
+  color: white;
+}
+
+.linkedin {
+  background: #D3C4BD;
+  color: white;
+}
+
+
+
+/* -- BUY NOW PAGE -- */
+
+/* Background Color */
+
+.wine-background-color {
+	background-color: #FCEDE6;
+}
+
+/* Bottle */
+
+.pink-bottle-img {
+	margin: 0px;
+	margin-bottom: 0px;
+	margin-left: 460px;
+	width: 9%;
+}
+
+.quiz-wines-img {
+	margin: 0px;
+	margin-bottom: 0px;
+	margin-left: 490px;
+	width: 7%;
+}
+
+.bestseller-img {
+	margin: 0px;
+	margin-bottom: 0px;
+	margin-left: 480px;
+	width: 14%;
+}
+
+.mobile-only {
+	display: none;
+}
+
+#pink-bottle {
+	z-index: 10;
+}
+
+ /* Contact Form */
+
+.contact-form {
+	margin-top: 25px;
+
+}
+.form-style {
+	display: block;
+	width: 100%;
+	padding-left: 700px;
+	margin-top: -502px;
+}
+
+.form-style-1 li {
+	list-style: none;
+	padding: 0;
+	display: block;
+}
+
+.form-style label {
+	color: #002140;
+	display: block;
+	text-align: left;
+}
+
+.form-style input[type="text"], .form-style-1 input[type="email"], textarea, select {
+	box-sizing: border-box;
+	border: 1px solid #002140;
+	outline: 0;
+	width: 800px;
+	background-color: transparent;
+}
+
+.form-style input[type="text"]:focus, .form-style-1 input[type="email"]:focus, textarea:focus select:focus {
+	border: 1px solid #002140;
+	background-color: transparent;
+}
+
+.form-style ul {
+	padding: 0px;
+	list-style: none;
+}
+
+.feild-long {
+	margin: 10px;
+	margin-bottom: 2px;
+	margin-top: 10px;
+}
+
+.feild-long-message {
+	height: 100px;
+}
+
+textarea {
+	color: #002140;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+}
+
+textarea::-webkit-input-placeholder {
+	color: #002140;
+	font-weight: lighter;
+}
+
+.form-button {
+	font-family: 'Lato', sans-serif;
+	color: #002140;
+	background-color: transparent;
+	border: 1px solid #002140;
+    padding: 10px 29px;
+    margin-top: -5px;
+    margin-left: 10px;
+    font-size: 16px;
+  	display: block;
+}
+
+.form-button:hover {
+	background-color: #303747;
+	color: #F5E6DF;
+	transition: 0.9s ease;
+}
+
+/* Process Paragraph */
+
+.process {
+	height: 270px;
+}
+
+.process-p {
+	margin-top: 50px;
+	margin-top: -10px;
+}
+
+.wine-p {
+	padding-top: 0px;
+	width: 1000px;
+	text-align: left;
+	margin-left: auto;
+    margin-right: auto;
+    width: 80em
+}
+.hidden{
+  display: none;
+}
+
+.hidden-img {
+  display: none;
+}
+
+
+
+

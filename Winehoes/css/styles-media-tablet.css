@@ -1,0 +1,324 @@
+/* -- TABLETS -- */ 
+
+/* Ipad */ 
+@media all and (max-width: 768px) {
+
+/* Header Styles */
+
+.logo {
+    width: 60%;
+}
+
+#myVideo { /* Fullscreen Video Background*/
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: -150px;
+}
+
+.video-text {
+	display: none;
+}
+
+.video-text-who {
+	display: none;
+}
+
+/* How To Icon Styles */
+
+.how-to {
+	background-color: #F5E6DF;
+	width: 100%;
+	margin-top: -32px;
+}
+
+.how-to img {
+	width: 768px;
+}
+
+/* Quiz Styles */
+
+.quiz {
+	margin: 0px;
+	margin-top: -20px;
+	padding: 0px;
+	width: 100%;
+}
+
+.quiz-img {
+	width: 60%;
+}
+
+.quiz-explination {
+	background-color: #303747;
+	color: #FCEDE6;
+	margin-top: 10px;
+	padding-bottom: 20px;
+}
+
+.quiz-p {
+	width: 1000px;
+	color: #FCEDE6;
+	text-align: left;
+	padding: 1px;
+	padding-bottom: 20px;
+	text-align: left;
+	margin-left: auto;
+    margin-right: auto;
+    width: 60em;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: -18px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Bestsellers Section on Home page*/
+
+.bestsellers {
+	display: none;
+}
+
+/* Footer */
+
+footer {
+	background-color: #F5E6DF;
+	width: 100%;
+	height: 190px;
+}
+
+footer h1 {
+	text-align: center;
+}
+
+footer p {
+	text-align: center;
+	padding: 0px;
+	padding-bottom: 10px;
+	margin: 0px;
+	line-height: 10px;
+}
+
+/* Special Bestseller Page */
+
+.bestseller-info-paragraph {
+	display: none;
+}
+
+.bestseller-img {
+	display: none;
+}
+
+.process {
+	display: none;
+}
+
+.mobile-only {
+	display: block;
+	width: 100%;
+	margin-bottom: 170px;
+}
+
+/* Contact Form */
+
+.form-style-bestsellers {
+	display: none;
+}
+
+.contact-form-bestseller {
+	display: none;
+}
+
+.wine-contact {
+	display: none;
+}
+
+/* Wine Page */
+
+.responsive {
+	display: none;
+}
+#pink-bottle {
+	display: none;
+}
+
+}
+
+
+/* Ipad Pro */ 
+@media all and (max-width: 1024px) {
+
+/* Header Styles */
+
+.logo {
+    width: 30%;
+}
+
+#myVideo { /* Fullscreen Video Background*/
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: -150px;
+}
+
+.video-text {
+	font-size: 40px;
+	font-weight: 300px;
+	padding: 40px;
+	margin: 40px;
+	margin-top: -100px;
+}
+
+.video-text-who {
+	font-size: 20px;
+	margin-top: -50px;
+	margin-left: 150px;
+}
+
+/* How To Icon Styles */
+
+.how-to {
+	background-color: #F5E6DF;
+	width: 100%;
+	margin-top: -32px;
+}
+
+.how-to img {
+	width: 768px;
+}
+
+/* Quiz Styles */
+
+.quiz {
+	margin: 0px;
+	margin-top: -20px;
+	padding: 0px;
+	width: 100%;
+}
+
+.quiz-img {
+	width: 60%;
+}
+
+.quiz-explination {
+	background-color: #303747;
+	color: #FCEDE6;
+	margin-top: 10px;
+	padding-bottom: 20px;
+}
+
+.quiz-explination h1 {
+	color: #FCEDE6;
+}
+
+.quiz-button-1 {
+	background-color: #191F2F;
+}
+
+.quiz-button-2 {
+	background-color: #0E1319;
+}
+
+.quiz-p {
+	width: 1000px;
+	color: #FCEDE6;
+	text-align: left;
+	padding: 1px;
+	padding-bottom: 20px;
+	text-align: left;
+	margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+}
+
+/* Bestsellers */
+
+.bestsellers {
+	width: 100%;
+	height: 500px;
+	margin-top: -20px;
+	background-color: #FCEDE6;
+}
+
+.bottle-boi {
+	width: 70%;
+}
+
+.column-6-left {
+  width: 150px;
+  padding: 20px;
+  float: left;
+  margin-right: 10px;
+}
+
+.column-6-middle {
+  width: 150px;
+  padding: 20px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.column-6-right {
+  width: 150px;
+  padding: 20px;
+  float: right;
+  margin-left: 10px;
+}
+
+
+/* Special Bestseller Page */
+
+.bestseller-info-paragraph {
+	display: none;
+}
+
+.bestseller-img {
+	display: none;
+}
+
+.process {
+	display: none;
+}
+
+/* Contact Form */
+
+.form-style input[type="text"], .form-style-1 input[type="email"], textarea, select {
+	box-sizing: border-box;
+	border: 1px solid #002140;
+	outline: 0;
+	width: 400px;
+	background-color: transparent;
+}
+
+
+
+/* Footer */
+
+footer {
+	background-color: #F5E6DF;
+	width: 100%;
+	height: 190px;
+}
+
+footer h1 {
+	text-align: center;
+}
+
+footer p {
+	text-align: center;
+	padding: 0px;
+	padding-bottom: 10px;
+	margin: 0px;
+	line-height: 10px;
+}
+
+}
+
