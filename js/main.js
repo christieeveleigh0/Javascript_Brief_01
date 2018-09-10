@@ -27,6 +27,7 @@ var wines = { // Key with all the choices a user could make.
 	"abbaab" : ['img/creamy-wine-suggestion.jpg',"creamy-wine.html"],
 	"abaabb" : ['img/fruity-wine-suggestion.jpg',"fruity-wine.html"], // After the comma is a link that takes you to the corresponding page for the image
 	"ababbb" : ['img/creamy-wine-suggestion.jpg',"creamy-wine.html"],
+	"ababba" : ['img/creamy-wine-suggestion.jpg',"creamy-wine.html"],
 	"abbabb" : ['img/spicy-wine-suggestion.jpg',"spicy-wine.html"],
 	"aababb" : ['img/smokey-wine-suggestion.jpg',"smokey-wine.html"],
 	"abaaba" : ['img/fruity-wine-suggestion.jpg',"fruity-wine.html"],
@@ -55,6 +56,7 @@ var wines = { // Key with all the choices a user could make.
 	"baabaa" : ['img/salty-wine-suggestion.jpg',"salty-wine.html"],
 	"baaaba" : ['img/salty-wine-suggestion.jpg',"salty-wine.html"],
 	"abbbab" : ['img/salty-wine-suggestion.jpg',"salty-wine.html"],
+	"babaab" : ['img/salty-wine-suggestion.jpg',"salty-wine.html"],
 	"bbbbbb" : ['img/spicy-wine-suggestion.jpg',"spicy-wine.html"],	
 	"baabba" : ['img/fruity-wine-suggestion.jpg',"fruity-wine.html"],
 	"babbab" : ['img/fruity-wine-suggestion.jpg',"fruity-wine.html"],
